@@ -37,15 +37,39 @@
       }
     },
     {
-      "id": "d204",
+      "id": "b15e",
+      "cityName": "Kyiv",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2022-02-24T15:56:57.000Z",
+      "notes": "",
+      "position": {
+        "lat": "50.44963461000952",
+        "lng": "30.531005859375004"
+      }
+    },
+    {
+      "id": "fd58",
       "cityName": "London",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
       "emoji": "🇬🇧",
-      "date": "2024-07-30T13:50:57.258Z",
+      "date": "2023-10-18T14:57:34.000Z",
       "notes": "",
       "position": {
-        "lat": "51.49164465653034",
-        "lng": "-0.10437011718750001"
+        "lat": "51.48822432632349",
+        "lng": "-0.087890625"
+      }
+    },
+    {
+      "id": "cdc0",
+      "cityName": "Warsaw",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2024-07-30T14:58:26.176Z",
+      "notes": "",
+      "position": {
+        "lat": "52.22443459871999",
+        "lng": "21.027832031250004"
       }
     }
   ]
