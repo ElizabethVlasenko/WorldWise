@@ -38,6 +38,25 @@ function CitiesProvider({ children }) {
     }
   }
 
+  async function createCity(newCity) {
+    try {
+      setIsLoading(true);
+      const res = await fetch(`${BASE_URL}/cities/`, {
+        method: "POST",
+        body: JSON.stringify(newCity),
+        header: {
+          "Content-type": "application/json",
+        },
+      });
+      const data = await res.json();
+      setCities((cities) => [...cities, data]);
+    } catch {
+      alert("There was an error loading data...");
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
   function flagemojiToPNG(flag) {
     if (flag === undefined) return;
     var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
@@ -50,7 +69,14 @@ function CitiesProvider({ children }) {
 
   return (
     <CitiesContext.Provider
-      value={{ cities, isLoading, currentCity, getCity, flagemojiToPNG }}
+      value={{
+        cities,
+        isLoading,
+        currentCity,
+        getCity,
+        flagemojiToPNG,
+        createCity,
+      }}
     >
       {children}
     </CitiesContext.Provider>
