@@ -1,30 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
       "id": "5af7",
       "cityName": "Paris",
       "country": "France",
@@ -61,15 +37,87 @@
       }
     },
     {
-      "id": "cdc0",
+      "id": "a8fa",
+      "cityName": "Copenhagen",
+      "country": "Denmark",
+      "emoji": "🇩🇰",
+      "date": "2024-07-30T15:05:23.824Z",
+      "notes": "",
+      "position": {
+        "lat": "55.680100899507664",
+        "lng": "12.576942443847658"
+      }
+    },
+    {
+      "id": "8d6e",
       "cityName": "Warsaw",
       "country": "Poland",
       "emoji": "🇵🇱",
-      "date": "2024-07-30T14:58:26.176Z",
+      "date": "2024-07-30T15:05:30.569Z",
       "notes": "",
       "position": {
-        "lat": "52.22443459871999",
-        "lng": "21.027832031250004"
+        "lat": "52.230743427331866",
+        "lng": "21.012039184570316"
+      }
+    },
+    {
+      "id": "103d",
+      "cityName": "Krakow",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2024-07-30T15:05:36.638Z",
+      "notes": "",
+      "position": {
+        "lat": "50.060224573869576",
+        "lng": "19.940872192382816"
+      }
+    },
+    {
+      "id": "b5e4",
+      "cityName": "Faro",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-07-30T15:06:06.401Z",
+      "notes": "",
+      "position": {
+        "lat": "37.02119466245163",
+        "lng": "-7.922515869140625"
+      }
+    },
+    {
+      "id": "82a7",
+      "cityName": "Barcelona",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-30T15:06:31.471Z",
+      "notes": "",
+      "position": {
+        "lat": "41.38196080315541",
+        "lng": "2.1725463867187504"
+      }
+    },
+    {
+      "id": "6dcb",
+      "cityName": "Riga",
+      "country": "Latvia",
+      "emoji": "🇱🇻",
+      "date": "2024-07-30T15:06:45.228Z",
+      "notes": "",
+      "position": {
+        "lat": "56.947970275100204",
+        "lng": "24.098510742187504"
+      }
+    },
+    {
+      "id": "409c",
+      "cityName": "Cambridge",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-07-30T16:04:32.944Z",
+      "notes": "",
+      "position": {
+        "lat": "52.211814252029605",
+        "lng": "0.13595581054687503"
       }
     }
   ]
