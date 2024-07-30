@@ -14,6 +14,7 @@ module.exports = {
   plugins: ["react-refresh", "react", "react-hooks"],
   rules: {
     "no-unused-vars": [2, { vars: "all", args: "after-used" }],
+    "no-undef": "error",
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },
